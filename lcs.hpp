@@ -38,6 +38,7 @@ public:
     int getLCSLen(){return max;}
     std::string getLCSConly(int i, int j);
 
+    int getMax(){return max;}
     void printC(){c->print();}
 };
 

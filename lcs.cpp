@@ -66,6 +66,7 @@ LCS& LCS::operator=(const LCS& copy){
     return *this;
 }
 
+#include <iostream>
 int LCS::spaceSaving(){
     row1 = new int[n];
     row2 = new int[n];
@@ -73,12 +74,14 @@ int LCS::spaceSaving(){
         row1[i] = 0;
         row2[i] = 0;
     }
-    for(int i = 1; i < n; i++){
+
+    for(int i = 1; i < m; i++){
+        
         for (int j = 1; j < n; j++){
             if (s1[i-1] == s2[j-1]) {
                 row2[j] = row1[j-1] + 1;
             } else {
-                if (row1[j] >= row2[j]) {
+                if (row1[j] >= row2[j-1]) {
                     row2[j] = row1[j];
                 } else {
                     row2[j] = row2[j-1];
