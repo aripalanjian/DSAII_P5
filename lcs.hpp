@@ -1,3 +1,22 @@
+/***************************************************************
+  Student Name: Ari Palanjian
+  File Name: lcs.hpp
+  Project 5
+
+  Defines the class LCS which calculates the lowest common
+    subsequence three ways:
+        1)Space Saving - use two arrays to calculate the lcs
+            by swapping the previously calulated row with the
+            current row, but this only allows you to find the 
+            maximum length
+        2)Basic - Uses two, 2-dimensional arrays, one to hold
+            the lcs at a given index of i and j and another to
+            hold the traversal direction to reconstruct the lcs
+        3)Advanced Basic - Uses 1 2-dimensional array to calculate
+            the lcs, the subsequence is reconstucted using 
+            recursion and evaluating the position above and to
+            the left of the current index.
+***************************************************************/
 #ifndef LCS_HPP
 #define LCS_HPP
 

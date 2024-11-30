@@ -1,3 +1,10 @@
+/***************************************************************
+  Student Name: Ari Palanjian
+  File Name: matrix.cpp
+  Project 5
+
+  Defines the member functions of class Matrix
+***************************************************************/
 #include "matrix.hpp"
 #include <iostream>
 
@@ -17,13 +24,6 @@ Matrix::Matrix(int row, int col) {
         for(int j = 0; j < col; j++){
             matrix[i][j] = 0;
         }
-        // if (i == 0) {
-        //     for (int j = 0; j < col; j++){
-        //         matrix[i][j] = 0;
-        //     }
-        // } else {
-        //     matrix[i][0] = 0;
-        // }
     }
 }
 

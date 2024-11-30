@@ -1,3 +1,10 @@
+/***************************************************************
+  Student Name: Ari Palanjian
+  File Name: lcs.hpp
+  Project 5
+
+  Defines the member functions of class LCS
+***************************************************************/
 #include "lcs.hpp"
 
 LCS::LCS(std::string s1, std::string s2){

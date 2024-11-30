@@ -1,3 +1,12 @@
+/***************************************************************
+  Student Name: Ari Palanjian
+  File Name: matrix.hpp
+  Project 5
+
+  Defines the class Matrix which is a 2-dimensional array holding
+    integer values that describe the longest common subsequence
+    at a given index i and j.
+***************************************************************/
 #ifndef MATRIX_HPP
 #define MATRIX_HPP
 

@@ -1,3 +1,11 @@
+/***************************************************************
+  Student Name: Ari Palanjian
+  File Name: geneseqsim.cpp
+  Project 5
+
+  Defines the member functions of class GeneSeqSim
+***************************************************************/
+
 #include "geneseqsim.hpp"
 #include <fstream>
 #include <iostream>
@@ -42,7 +50,9 @@ void GeneSeqSim::runPart1(){
     } 
     LCS part1(s1,s2);
     part1.advBasic();
-    std::cout << "Longest Common Subsequence(" << part1.getMax() << "):\n";
+    std::cout << "String 1(" << s1.size() << "): \n\t" << s1 
+        << "\n\nString 2(" << s2.size() << "): \n\t" << s2 << "\n\n";
+    std::cout << "Longest Common Subsequence(" << part1.getMax() << "):\n\t";
     std::cout << part1.getLCSConly(s1.size()+1,s2.size()+1) << std::endl;
 }
 

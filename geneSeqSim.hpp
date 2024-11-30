@@ -1,3 +1,14 @@
+/***************************************************************
+  Student Name: Ari Palanjian
+  File Name: geneseqsim.hpp
+  Project 5
+
+  Defines the class GeneSeqSim which is the driver program
+    to run part 1, which calculates and reconstructs the 
+    longest common subsequence between two strings, and part 2,
+    which creates a similarity table by finding the lcs for n
+    strings. 
+***************************************************************/
 #ifndef GENESEQSIM_HPP
 #define GENESEQSIM_HPP
 

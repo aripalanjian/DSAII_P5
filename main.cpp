@@ -1,3 +1,11 @@
+/***************************************************************
+  Student Name: Ari Palanjian
+  File Name: main.cpp
+  Project 5
+
+  Initializes the driver program and evaluates command line
+    options.
+***************************************************************/
 #include "geneseqsim.hpp"
 #include <string.h>
 
