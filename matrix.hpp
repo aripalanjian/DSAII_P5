@@ -7,12 +7,14 @@ class Matrix{
 	int cols;
 
 public:
-    Matrix(int n);
+    Matrix();
     Matrix(int m, int n);
+    Matrix(const Matrix& copy);
+    Matrix& operator=(const Matrix& copy);
     ~Matrix();
-    void setDataRand();
-    void setDataFile(const char* file);
-    Matrix* multipy(const Matrix& rhs);
+
+    int getVal(int i, int j){return matrix[i][j];}
+    void setVal(int i, int j, int val){this->matrix[i][j] = val;}
     void print();
 };
 
